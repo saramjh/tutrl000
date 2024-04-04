@@ -3,6 +3,11 @@ This is a Tutorial of Nextjs 14 version REST API for CRUD with MongoDB
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Environment File(.env)
+```bash
+MONGODB_URI=<Input Your MongoDB URI>
+```
+
 ## Getting Started
 
 First, run the development server:
