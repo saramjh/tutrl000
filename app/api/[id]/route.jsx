@@ -32,7 +32,7 @@ export async function DELETE(req, { params }) {
 	await connectDB()
 	try {
 		const todo = await TodoModel.findOneAndDelete({ _id: id })
-		console.log("The item is deleted")
+		console.log("The item is deleted " + id + " ----- deleted")
 		return NextResponse.json(todo, { status: 201 })
 	} catch (err) {
 		console.log("Failed to Delete the item", err)
